@@ -1,0 +1,47 @@
+# Python installation and virtual environment
+/Lib/
+/Scripts/
+/Include/
+/share/
+pyvenv.cfg
+*.pyc
+__pycache__/
+*.pyd
+*.pyo
+*.pyw
+.Python
+
+# Site packages
+**/site-packages/
+**/dist-packages/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Google OAuth
+credentials.json
+token.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
